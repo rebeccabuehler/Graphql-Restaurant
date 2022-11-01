@@ -92,7 +92,7 @@ var root = {
   restaurant : (arg)=>restaurants[arg.id],
   restaurants : ()=> restaurants,
   setrestaurant : ({input}) => {
-    restaurants.push({id: input.id,name:input.name,email:input.email,age:input.age})
+    restaurants.push({id: input.id,name:input.name,description:input.description})
     return input
   },
   deleterestaurant : ({id})=>{
